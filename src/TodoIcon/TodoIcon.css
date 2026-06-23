@@ -1,0 +1,16 @@
+.Icon {  
+  margin: 15px;
+  cursor: pointer;
+}
+
+.Icon-p--complete {
+  color: green;
+}
+
+.Icon-check:hover {
+  color: green;
+}
+
+.Icon-delete:hover {
+  color: red;
+}

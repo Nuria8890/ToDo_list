@@ -1,0 +1,33 @@
+.TodoButton-div{
+  display: flex;
+  justify-content: center;
+  min-width: 500px;
+  margin-top: 12px;
+}
+
+.TodoButton {
+  border-radius: 20px;
+  background-color: green;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: rgb(47, 186, 47);
+  box-shadow: 0px 5px 25px green;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .TodoButton-div {
+    min-width: auto;
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  .TodoButton {
+    width: 100%;
+    max-width: 300px;
+  }
+}
