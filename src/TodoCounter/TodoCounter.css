@@ -5,11 +5,13 @@
   padding: 48px;
   font-weight: normal;
   min-width: 460px;
+  color: #1f2937;
 }
 
 .TodoCounter span {
   margin: 3px;
   font-weight: bold;
+  color: #6366f1;
 }
 
 @media (max-width: 600px) {

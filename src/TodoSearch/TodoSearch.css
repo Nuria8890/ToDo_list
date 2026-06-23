@@ -8,17 +8,20 @@
 
 .TodoSearch {
   width: 300px;
-  padding: 10px;
-  border-radius: 10px;
-  border: 2px solid black;
-  box-shadow: 0px 5px 30px black;
-  color: black;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  color: #374151;
   font-size: 15px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .TodoSearch:focus {
-  outline-color: red;
-  box-shadow: 0px 5px 50px red;
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.25);
 }
 
 @media (max-width: 600px) {

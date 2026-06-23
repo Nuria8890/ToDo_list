@@ -1,16 +1,22 @@
-.Icon {  
+.Icon {
   margin: 15px;
   cursor: pointer;
+  color: #9ca3af;
+  transition: color 0.2s ease, transform 0.15s ease;
+}
+
+.Icon:hover {
+  transform: scale(1.15);
 }
 
 .Icon-p--complete {
-  color: green;
+  color: #10b981;
 }
 
 .Icon-check:hover {
-  color: green;
+  color: #10b981;
 }
 
 .Icon-delete:hover {
-  color: red;
+  color: #ef4444;
 }

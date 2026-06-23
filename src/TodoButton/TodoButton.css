@@ -7,15 +7,21 @@
 
 .TodoButton {
   border-radius: 20px;
-  background-color: green;
-  padding: 10px;
+  background-color: #10b981;
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
 }
 
-button:hover {
-  background-color: rgb(47, 186, 47);
-  box-shadow: 0px 5px 25px green;
+.TodoButton:hover {
+  background-color: #059669;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.45);
   cursor: pointer;
-  font-weight: bold;
+  transform: translateY(-2px);
 }
 
 @media (max-width: 600px) {
